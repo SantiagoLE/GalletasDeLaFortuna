@@ -3,7 +3,10 @@ import React from 'react'
 const phrase = ({phraseRandom}) => {
 
   return (
-    <p className='App_phrase'>{phraseRandom.phrase}</p>
+    <div className='App_containt-phrase'>
+      <p className='App_phrase'>{phraseRandom.phrase} <span></span> </p> 
+   </div>
+    
   )
 }
 
