@@ -21,21 +21,21 @@
 
 .App_title {
     user-select: none;
-    padding-top: 3rem;
+    padding-top: 5rem;
     margin: 0 auto;
     text-align: center;
     font-family: Rowdies;
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
     text-shadow: 7px 5px 1px var(--title_shadow);
     color: var(--color_white);
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .App_containt-phrase {
     user-select: none;
     position: relative;
-    margin: 2rem auto 2rem auto;
+    margin: 4rem auto 2rem auto;
     padding: 0.5rem;
     background-color: var(--color_bg-content-phrase) ;
     box-shadow: 12px 13px 10px 0px var(--content-phrase_shadow);
