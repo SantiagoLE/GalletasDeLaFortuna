@@ -16,7 +16,7 @@ function App() {
 const [numberBackground, setNumberBackground] = useState(getRandomArray(backgrounds))
 
   const appStyle = {
-    backgroundImage: `url('/backgrounds/background4.jpg')`
+    backgroundImage: `url('/backgrounds/background${numberBackground}.jpg')`
   }
 
   return (
